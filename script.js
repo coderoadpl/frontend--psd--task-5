@@ -19,7 +19,7 @@ console.log(result) // it always will be undefined!
 const myOwnForEach = function (array, callback) {
 
     for (let i = 0; i < array.length; i++) {
-        const element = names[i]
+        const element = array[i]
         const index = i
         const array = names
 
